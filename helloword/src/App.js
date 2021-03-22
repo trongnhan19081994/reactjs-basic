@@ -7,14 +7,25 @@ import './App.css';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 // import ParentComponent from './components/ParentComponent';
-import UserGreeting from './components/UserGreeting';
-import NameList from './components/NameList';
-import Stylesheet from './components/Stylesheet';
-import Form from './components/Form';
+//import UserGreeting from './components/UserGreeting';
+//import NameList from './components/NameList';
+//import Stylesheet from './components/Stylesheet';
+//import Form from './components/Form';
+//import LifecycleA from './components/LifecycleA';
+//import FragmentDemo from './components/FragmentDemo';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
+import FRParentInput from './components/FRParentInput';
 function App() {
   return (
     <div className="App">
-      <Form />
+      {/* <RefsDemo /> */}
+      <FRParentInput />
+      {/* <Form /> */}
+      {/* <LifecycleA /> */}
+      {/* <FragmentDemo /> */}
+      {/* <ParentComp /> */}
       {/* <Stylesheet  primary={true} />
       <UserGreeting />
       <NameList /> */}
