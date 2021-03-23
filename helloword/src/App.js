@@ -11,7 +11,7 @@ import './App.css';
 //import NameList from './components/NameList';
 //import Stylesheet from './components/Stylesheet';
 //import Form from './components/Form';
-//import LifecycleA from './components/LifecycleA';
+import LifecycleA from './components/LifecycleA';
 //import FragmentDemo from './components/FragmentDemo';
 import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App">
       {/* <RefsDemo /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
       {/* <Form /> */}
-      {/* <LifecycleA /> */}
+      { <LifecycleA /> }
       {/* <FragmentDemo /> */}
       {/* <ParentComp /> */}
       {/* <Stylesheet  primary={true} />
