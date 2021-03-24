@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import ClassCounterOne from './components/ClassCounterOne';
-import HookCounterOne from './components/HookCounterOne';
+import DataFetching from './components/DataFetching';
+//import ClassCounterOne from './components/ClassCounterOne';
+//import HookCounterOne from './components/HookCounterOne';
+//import HookMouse from './components/HookMouse';
+//import IntervalHookCounter from './components/IntervalHookCounter';
+//import MouseContainer from './components/MouseContainer';
 
 function App() {
   return (
     <div className="App">
-     {/* <ClassCounterOne /> */}
-     <HookCounterOne />
+      {/* <ClassCounterOne /> */}
+      {/* <HookCounterOne /> */}
+      {/* <HookMouse /> */}
+      {/* <MouseContainer /> */}
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 }
