@@ -15,6 +15,7 @@ function App() {
           {
             todoList.map(item => (
               <TodoItem
+                key={item.id}
                 name={item.item}
                 done={item.done}
                 id={item.id}
